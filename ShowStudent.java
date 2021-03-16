@@ -15,9 +15,9 @@ package student;
             + pupil.getGradePoint()+"\n\n");
  
         Student s2 = new Student();// 2 cannot resolve sybmol points to 'S in Student
-        s2.setIDnumber(12345);
-        s2.setPoints(66);
-        s2.setHours(20);
+        s2.setIDnumber(9999);
+        s2.setPoints(12);
+        s2.setHours(3);
         s2.showIDnumber();
         s2.showPoints();
         s2.showHours();
